@@ -1,0 +1,19 @@
+{
+  "name": "intima-store",
+  "version": "1.0.0",
+  "description": "test-frontend-jr",
+  "main": "index.js",
+  "repository": "https://github.com/leandroti7/test-front-end-jr.git",
+  "author": "leandroti7 <leandro.dasilvati7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-watch": "^5.0.1",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
