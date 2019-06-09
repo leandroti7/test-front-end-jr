@@ -1,0 +1,77 @@
+body
+  //background-color: red
+  
+.container
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding: 0 29px
+  //border: 1px solid #000000
+  //background: #f0f0f0
+
+  @media (min-width: 1231px)
+    max-width: 1231px
+    padding: 0
+    //background-color: #5dccca
+
+.container-body
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  background: #cb11ae
+
+  @media (min-width: 1231px)
+    max-width: 1055px
+
+.row
+  margin-left: 0px
+  margin-right: 0px
+
+  &:before,
+    &:after
+    content: ''
+    display: table
+
+  &:after
+    clear: both
+
+.col
+  display: inline-block
+  vertical-align: top
+  padding-left: -5px
+  padding-right: -5px
+  margin-right: -4px
+  width: 100%
+
+  &.col-2
+    width: 50%
+
+  &.col-3
+    width: 33.3333%
+
+  &.col-4
+    width: 25%
+
+  &.col-5
+    width: 20%
+
+  &.col-6
+    width: 16.6666%
+
+  &.col-7
+    width: 14.2857%
+
+  &.col-8
+    width: 12.5%
+
+  &.col-9
+    width: 11.1111%
+
+  &.col-10
+    width: 10%
+
+  &.col-11
+    width: 9.0909%
+
+  &.col-12
+    width: 8.3333%

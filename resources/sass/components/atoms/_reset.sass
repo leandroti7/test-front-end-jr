@@ -1,4 +1,47 @@
-*
-  padding: 0
+@import mixins
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap')
+
+body
+  height: 100%
+  font-family: 'Montserrat', sans-serif
+  line-height: 1
+  overflow-x: hidden
+  strong
+    font-weight: bold
+
+html, body
+  height: 100%
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img,
+strong, b, u, i, ol, ul, li, form, label,
+canvas, details, footer, header, menu, nav
   margin: 0
-  background-color: antiquewhite
+  padding: 0
+  border: 0
+  +box-sizing(border-box)
+
+  //font-size: 100%
+  //vertical-align: baseline
+  //-webkit-font-smoothing: antialiased
+
+footer, header, menu, nav, section
+  display: block
+
+
+ol, ul
+  list-style: none
+
+li
+  display: inline-block
+
+label
+
+
+input
+
+
+
+  &::placeholder
+
+
+  &:focus
