@@ -1,7 +1,6 @@
 .header-content
   max-width: 1350px
   min-height: 300px
-  //background: #2acc32
   margin-left: auto
   margin-right: auto
 
@@ -17,17 +16,14 @@
       letter-spacing: 0.2em
 
     .navbar-tools
-      //background-color: #3cbbaa
       text-transform: uppercase
       margin-left: 13px
 
     .brand
       height: 53px
-      //background-color: #20aacc
       text-align: center
 
     .navbar-shopcart
-      //background-color: #12ccac
       text-align: right
       
       .items-shopcart
@@ -45,25 +41,26 @@
         margin-right: 30px
 
     .navbar-menu
-      //background-color: #2acc32
-      //text-align: center
       margin-top: 30px
       display: flex
       justify-content: space-between
       margin-bottom: 27px
 
       .items-menu
-        text-transform: uppercase
-        font-size: 14px
-        letter-spacing: 0.15em
-        //margin-right: 4%
+          text-transform: uppercase
+          font-size: 14px
+          letter-spacing: 0.15em
+          
+
+
+        @media (max-width: $desktop)
+          font-size: 12px
 
   .banner
     background:
       image: url("../../../../resources/images/Captura de Tela 2018-07-05 às 15.40.24.png")
       repeat: no-repeat
-      size: 100%
-      //position-y: 170px
+      size: 100% 380px
     height: 380px
 
     .caption-banner
@@ -80,11 +77,17 @@
           text-transform: uppercase
           font-weight: $bold
 
+          @media (max-width: $desktop-md)
+            font-size: 45px
+
         .second-caption
           font-size: 52.15px
           font-weight: $light
           text-transform: uppercase
           margin: 15px 0 15px -5px
+
+          @media (max-width: $desktop-md)
+            font-size: 46px
 
 
         .btn-banner
@@ -105,14 +108,26 @@
           font-size: 36.06px
           text-align: center
 
+          @media (max-width: $desktop-md)
+            font-size: 28px
+
         .price
           //background: #1245bb
           display: block
           position: relative
+
+          @media (max-width: $desktop-md)
+            margin-top: 10px
           .type-money
             font-size: 74.76px
             font-weight: $bold
             float: left
+
+            @media (max-width: $desktop-md)
+              font-size: 55px
+              float: none
+              vertical-align: top
+              top: 10px
 
           .value
             font-size: 147.52px
@@ -120,9 +135,33 @@
             float: left
             margin-top: 0
 
+            @media (max-width: $desktop-md)
+              font-size: 100px
+              float: none
+
           .cents
             font-size: 74.76px
             font-weight: $bold
             margin-left: -20px
             top: 53px
             position: relative
+
+            @media (max-width: $desktop-md)
+              font-size: 55px
+              top: 0
+              margin-left: 0
+
+    .content-bullets
+      text-align: center
+      margin-top: 40px
+      .bullets
+        display: inline-block
+        width: 15px
+        height: 15px
+        border-radius: 100%
+        background: rgb(255, 255, 255)
+        margin: 0 5px
+        opacity: 0.3
+
+        &.first
+          opacity: 0.15

@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95937e6a-f42a-4ca0-be0e-d4af25d46bab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/sass/components/atoms/_buttons.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/molecules/_footer.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/buildCss/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/buildCss/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Camada 14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Camada 15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Preto-e-Branco 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Preto-e-Branco 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Preto-e-Branco 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Preto-e-Branco 4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/components/molecules/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/molecules/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/organisms/_section-about-intima.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/organisms/_section-about-intima.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/organisms/_section-site-map.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/organisms/_section-site-map.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,35 +28,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="418" column="81" lean-forward="true" selection-start-line="418" selection-start-column="81" selection-end-line="418" selection-end-column="81" />
+            <state relative-caret-position="422">
+              <caret line="488" column="79" selection-start-line="488" selection-start-column="79" selection-end-line="488" selection-end-column="79" />
               <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#2750#2756#1" expanded="true" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-site-map.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/components/molecules/_footer.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,16 +88,7 @@
         <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_buttons.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1621">
-              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -91,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -100,17 +105,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sass/components/molecules/_header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="254">
+              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+              <folding>
+                <element signature="e#1571#3503#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +147,7 @@
       <find>col-6</find>
       <find>&lt;li</find>
       <find>&lt;span</find>
+      <find>&lt;p</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -152,6 +161,7 @@
       <replace>col-5</replace>
       <replace>&lt;li class=&quot;indices-letters&quot;</replace>
       <replace>&lt;span class=&quot;point-space&quot;</replace>
+      <replace>&lt;a</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,16 +178,17 @@
         <option value="$PROJECT_DIR$/resources/sass/components/atoms/mixins.sass" />
         <option value="$PROJECT_DIR$/resources/sass/components/atoms/grid.sass" />
         <option value="$PROJECT_DIR$/resources/sass/components/organisms/_site-map.sass" />
-        <option value="$PROJECT_DIR$/resources/sass/main.sass" />
-        <option value="$PROJECT_DIR$/resources/sass/components/molecules/_header.sass" />
-        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass" />
-        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass" />
         <option value="$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass" />
-        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass" />
         <option value="$PROJECT_DIR$/resources/sass/components/atoms/_buttons.sass" />
         <option value="$PROJECT_DIR$/resources/sass/components/organisms/_section-about-intima.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/sass/components/organisms/_section-site-map.sass" />
+        <option value="$PROJECT_DIR$/resources/sass/main.sass" />
+        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass" />
+        <option value="$PROJECT_DIR$/resources/sass/components/molecules/_footer.sass" />
+        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass" />
+        <option value="$PROJECT_DIR$/resources/sass/components/molecules/_header.sass" />
       </list>
     </option>
   </component>
@@ -195,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,59 +216,34 @@
             <path>
               <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="buildCss" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="buildCss" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="buildCss" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="atoms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-front-end-jr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-front-end-jr" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="organisms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,18 +284,19 @@
       <updated>1559946205281</updated>
       <workItem from="1559946206409" duration="12888000" />
       <workItem from="1560008463896" duration="39983000" />
-      <workItem from="1560095429039" duration="46115000" />
+      <workItem from="1560095429039" duration="46335000" />
+      <workItem from="1560162579257" duration="8614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98986000" />
+    <option name="totallyTimeSpent" value="107820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -384,9 +370,6 @@
     <entry file="file://$PROJECT_DIR$/resources/images/lingeries-bodys.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/Captura de Tela 2018-07-05 às 15.40.24.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/bb.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -399,35 +382,10 @@
     <entry file="file://$PROJECT_DIR$/public/buildCss/main.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/Camada 14.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/Camada 15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/Camada 14.png" />
+    <entry file="file://$PROJECT_DIR$/resources/images/Camada 15.png" />
     <entry file="file://$PROJECT_DIR$/resources/images/kit-cuecas.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1621">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-about-intima.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,63 +394,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_buttons.sass">
+    <entry file="file://$PROJECT_DIR$/resources/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-spotlight.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="-361">
+          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_buttons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_grid.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/molecules/_header.sass">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/molecules/_footer.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/Captura de Tela 2018-07-05 às 15.40.24.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="418" column="81" lean-forward="true" selection-start-line="418" selection-start-column="81" selection-end-line="418" selection-end-column="81" />
+        <state relative-caret-position="422">
+          <caret line="488" column="79" selection-start-line="488" selection-start-column="79" selection-end-line="488" selection-end-column="79" />
           <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#2750#2756#1" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/components/organisms/_section-site-map.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_reset.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/atoms/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/molecules/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="e#1571#3503#0" />
+          </folding>
         </state>
       </provider>
     </entry>
