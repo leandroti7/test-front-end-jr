@@ -1,39 +1,102 @@
 .spotlight
-
+  margin-bottom: 72px
   .instructions
-    background: #3cbbaa
+    padding-left: 30px
+    padding-right: 18px
+    //background: #3cbbaa
+    display: flex
+    justify-content: space-between
 
     .box-instructions
-      background: coral
+      //background: coral
+      display: inline-block
+      margin: 40px 0
+
 
       .icon-instructions, .desc-instructions
           display: inline-block
 
+      .icon-instructions
+        margin-right: 18px
+
+      .desc-instructions
+        position: relative
+        vertical-align: top
+        margin-top: 5px
+
+        .first-desc
+          font-size: 17px
+          font-weight: $bold
+          margin-bottom: 3px
+          text-transform: uppercase
+
+        .second-desc
+          font-size: 13px
+          
+  .box-spotlight
+    //background: #3cbbaa
+    display: flex
+    justify-content: space-between
+    margin-bottom: 65px
+
+    .box-best-sellers, .box-pijamas, .box-fashion
+      display: inline-block
+      //width: 100%
+
+      .fashion, .pijamas, .best-sellers
+        width: 100%
+        position: relative
+        //background-color: darkorchid
+
+        img
+          width: 100%
+          
+      .title-spotlight
+        font-size: 22px
+        text-transform: uppercase
+        font-weight: $regular
+        text-align: center
+        margin-top: 20px
+
+      .btn.btn-spotlight
+        margin-top: 35px
+        padding: 25px 37px 20px 37px
+        font-size: 13px
+        margin-left: auto
+        margin-right: auto
+        display: block
+
   .carousel-brands
-    background: #3cbbaa
+    //background: #3cbbaa
     padding-left: 2px
     padding-right: 2px
+    margin-bottom: 95px
 
     .arrow-back, .arrow-next
       display: inline-block
-      width: 15%
-      background-color: red
+      width: 5%
+      //background-color: red
       float: left
 
     .arrow-next
       text-align: right
       
     .content-brands
-      width: 70%
+      width: 90%
       display: inline-block
       background-color: #fff
       float: left
 
+      .brands
+        display: flex
+        justify-content: space-between
+        //background-color: #202ccc
+
 
   .content-news-header
-    background: #bb2011
+    //background: #bb2011
     display: block
-    border-bottom: 1px solid $black
+    margin-bottom: 50px
 
     .news
       display: inline-block
@@ -47,7 +110,7 @@
     .menu-news
       width: 80%
       display: inline-block
-      border-bottom: 1px solid $black
+      border-bottom: 1px solid $graylight
       float: left
       text-align: right
 
@@ -55,11 +118,14 @@
         padding: 5px 15px
 
   .content-news-body
+    margin-bottom: 75px
     .arrow-back, .arrow-next
       display: inline-block
       width: 5%
-      background-color: red
+      //background-color: red
       float: left
+      margin-top: 300px
+
 
     .arrow-next
       text-align: right
@@ -70,7 +136,34 @@
       background-color: #fff
       float: left
 
-  .kit-briefs
+      .content-items-news
+        display: flex
+        justify-content: space-between
+
+        .items-news
+          //background-color: #21bbae
+
+          .desc-price
+            margin-top: 35px
+
+            .desc-product
+              font-size: 19px
+              font-weight: $regular
+              //background: deeppink
+              padding-right: 20px
+
+            .price-product
+              margin-top: 20px
+              margin-bottom: 10px
+              .subscribe
+                margin-right: 14px
+
+            .plots-product
+              b
+                margin: 0 5px
+
+
+  .content-kit-briefs
     height: 339px
     margin-right: 10px
     background:
@@ -78,10 +171,81 @@
       position: center
       size: 100% 339px
 
-  .bodys-lingeries
+    .kit-briefs
+      position: relative
+      //background-color: chartreuse
+      //width: 350px
+      padding-top: 70px
+      padding-left: 120px
+      //text-align: center
+      margin-left: auto
+      margin-right: auto
+
+      .title-briefs
+        font-size: 37.9px
+        font-weight: $bold
+        text-transform: uppercase
+
+      .start-price
+        font-size: 31.49px
+        text-align: center
+        //margin: 5px 0
+
+      .price-briefs
+        font-size: 70.24px
+        font-weight: $semi-bold
+        letter-spacing: 2px
+
+    .btn.btn-buy
+      padding: 23px 35px
+      border-width: 2px
+      font-size: 17.70px
+      margin-top: 38px
+      margin-left: auto
+      margin-right: auto
+      display: block
+
+
+  .content-bodys-lingeries
     height: 339px
     margin-left: 10px
     background:
       image: url("../../../../resources/images/lingeries-bodys.png")
       position: center
       size: 100% 339px
+
+    .bodys-lingeries
+      position: relative
+      //background-color: chartreuse
+      //width: 350px
+      padding-top: 70px
+      margin-left: auto
+      margin-right: auto
+      text-align: center
+
+
+      .title-lingeries
+        font-size: 65.29px
+        font-weight: $semi-bold
+        text-transform: uppercase
+
+
+      .subtitle-bodys
+        font-size: 65.29px
+        font-weight: $regular
+        text-transform: uppercase
+        margin-left: -55px
+
+        .and
+          font-size: 37.34px
+          vertical-align: top
+          margin-right: 10px
+
+      .btn.btn-buy
+        padding: 23px 35px
+        border-width: 2px
+        font-size: 17.70px
+        margin-top: 38px
+        margin-left: auto
+        margin-right: auto
+        display: block

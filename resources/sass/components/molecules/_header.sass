@@ -1,7 +1,7 @@
 .header-content
   max-width: 1350px
   min-height: 300px
-  background: #2acc32
+  //background: #2acc32
   margin-left: auto
   margin-right: auto
 
@@ -9,30 +9,54 @@
     background-color: #fff
     padding-top: 40px
 
+    .hifen
+      margin: 0 5px
+
+    .itmes-tools
+      font-size: 12px
+      letter-spacing: 0.2em
 
     .navbar-tools
-      background-color: #3cbbaa
+      //background-color: #3cbbaa
       text-transform: uppercase
-    
+      margin-left: 13px
+
     .brand
       height: 53px
-      background-color: #20aacc
+      //background-color: #20aacc
       text-align: center
 
     .navbar-shopcart
-      background-color: #12ccac
+      //background-color: #12ccac
       text-align: right
-    
+      
+      .items-shopcart
+        font-size: 12px
+        text-transform: uppercase
+        letter-spacing: 0.2em
+
+        .total-items
+          margin: 0 2px
+
+      .icon-search, .icon-user
+        margin: 0 15px
+
+      .icon-user
+        margin-right: 30px
+
     .navbar-menu
-      background-color: #2acc32
+      //background-color: #2acc32
       //text-align: center
       margin-top: 30px
+      display: flex
+      justify-content: space-between
+      margin-bottom: 27px
 
       .items-menu
         text-transform: uppercase
         font-size: 14px
-        letter-spacing: 0.57px
-        margin-right: 4%
+        letter-spacing: 0.15em
+        //margin-right: 4%
 
   .banner
     background:
@@ -40,4 +64,65 @@
       repeat: no-repeat
       size: 100%
       //position-y: 170px
-    height: 300px
+    height: 380px
+
+    .caption-banner
+      //background: darkorchid
+
+      .caption-left
+        //background: darkgrey
+        width: 292px
+        margin-top: 80px
+
+
+        .first-caption
+          font-size: 51.16px
+          text-transform: uppercase
+          font-weight: $bold
+
+        .second-caption
+          font-size: 52.15px
+          font-weight: $light
+          text-transform: uppercase
+          margin: 15px 0 15px -5px
+
+
+        .btn-banner
+          width: 100%
+          padding: 27px 60px
+          font-size: 17.68px
+
+      .caption-right
+        //background-color: #888
+        width: 376px
+        text-align: right
+        margin-top: 120px
+        float: right
+
+
+        .at
+          //background: #a57c8e
+          font-size: 36.06px
+          text-align: center
+
+        .price
+          //background: #1245bb
+          display: block
+          position: relative
+          .type-money
+            font-size: 74.76px
+            font-weight: $bold
+            float: left
+
+          .value
+            font-size: 147.52px
+            font-weight: $bold
+            float: left
+            margin-top: 0
+
+          .cents
+            font-size: 74.76px
+            font-weight: $bold
+            margin-left: -20px
+            top: 53px
+            position: relative
